@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+    </head>
+<body>
+    <style>
+        body{background-color: black;}
+        h1{color: white;}
+        p{color: white;}
+        label{color: white;}
+    </style>
+<form action="action_page.php" method="post">
+   <link rel="stylesheet" href="login.css">
+    <div class="container">
+      <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="Username" id="username" required>
+  
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" id="password" required>
+  
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+      <span class="psw">Forgot <a href="password.html">forgot your password?</a>password?</span>
+    <button type="submit" >Login</button>
+  </form>
+  </body>
+  </html>
